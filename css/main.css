@@ -1,0 +1,116 @@
+/*
+color negro: #161616
+color blanco: #fafafa
+color azul marino: #00304E
+ */
+
+/*Golbales*/
+
+body {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Fin globales*/
+
+/*Componentes*/
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.separador {
+    display: block;
+    width: 50px;
+    border-top: 3px solid darkslateblue;
+    margin: 1rem auto;
+}
+
+.separador--white {
+    border-color: #fafafa;
+}
+.button {
+    display: inline-block;
+    padding: 1.4rem 2rem;
+    background: darkslateblue;
+    text-transform: uppercase;
+    color: #fafafa;
+    text-decoration: none;
+    border-radius: 5rem;
+    font-weight: bold;
+}
+
+.button--white {
+    display: inline-block;
+    padding: 1.4rem 2rem;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5rem;
+}
+
+.button--white:hover {
+    background-color: white;
+    color: darkslateblue;
+}
+
+.button:hover {
+    background-color: darkslateblue;
+    color: black;
+}
+.button--margin-top {
+    margin-top: 2rem;
+}
+/*Fin componentes*/
+
+/*Hero */
+
+.hero {
+    padding: 5rem 0;
+    text-align: center;
+    background-image: url(../img/Fondo.webp);
+    background-size: cover;
+}
+
+.hero__title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: darkslateblue;
+    margin-bottom: 0;
+}
+
+.hero__text {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+/*Fin Hero/*
+
+/*Info*/
+
+.info {
+    padding: 5rem 0;
+    text-align: center;
+    background: darkslateblue;
+    color: #fafafa;
+}
+
+.info__title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.info__text {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+
+
